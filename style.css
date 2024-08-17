@@ -1,0 +1,104 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 70%;
+  background-color: #ffcd9e;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.content-box {
+  height: 100%;
+  width: 50%;
+  /* background-color: aquamarine; */
+  padding: 0px 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image-box {
+  height: 100%;
+  width: 50%;
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  width: 100%;
+  height: 30%;
+  background-color: #292829;
+  display: flex;
+}
+.left-box {
+  height: 100%;
+  width: 50%;
+  /* background-color: palevioletred; */
+  padding: 20px 120px;
+}
+.right-box {
+  height: 100%;
+  width: 50%;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 120px;
+}
+
+body {
+  font-family: "Inter";
+  margin: 0px;
+}
+.logo {
+  width: 200px;
+  height: 600px;
+}
+.form-box {
+  display: flex;
+  gap: 10px;
+}
+.register-button {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  height: 34px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+}
+.input-field {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+.input-field::placeholder {
+  font-size: 10px;
+}
+.left-box-content {
+  margin: 10px 0px;
+  color: #ffffff;
+}
+.right-box-content {
+  margin: 10px 0px;
+  color: #ffffff;
+}
+.line-1 {
+  margin: 10px 0px;
+}
+.line-2 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.line-3 {
+  margin: 10px 0px;
+}
+.line-4 {
+  margin: 10px 0px;
+  color: #ffffff;
+}
